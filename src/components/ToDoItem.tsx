@@ -1,8 +1,7 @@
-import { useContext } from "react"
+import { useContext, React} from "react"
 import { removeToDo } from "../lib/api"
 import { ActionTypes, ITodo } from "../lib/types"
 import { TodoContext } from "../lib/context"
-import React from "react"
 
 
 interface Props{

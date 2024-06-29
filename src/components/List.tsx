@@ -10,7 +10,7 @@ export const List:React.FC = () => {
 
     const {state} = context
 
-    return <div className="list, completed">
+    return <div className="list">
         {
             state.todos.map(todo => <ToDoItem key = {todo.id} todo = {todo} onDelete={onDelete}/>)
         }

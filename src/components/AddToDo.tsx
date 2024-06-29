@@ -23,7 +23,7 @@ export const AddToDo: React.FC = () => {
 
     const data = await addToDo({ text, completed: false });
     setText("");
-    // console.log(data);
+  
 
     dispatch({ type: ActionTypes.add, payload: data });
   };

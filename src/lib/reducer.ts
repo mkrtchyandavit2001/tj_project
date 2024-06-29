@@ -16,12 +16,12 @@ export const reducer = (state:IState, action:IAction) => {
         case ActionTypes.remove:
             return{
                 ...state,
-                todos: /*???*/ action.payload as ITodo[]
+                todos:  action.payload as ITodo[]
             }
         case ActionTypes.update:
             return{
                 ...state,
-                
+
             }
         default:
             return state
